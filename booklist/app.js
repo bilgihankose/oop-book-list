@@ -30,7 +30,6 @@ UI.prototype.clearFields = function() {
   document.getElementById('author').value = '';
   document.getElementById('isbn').value = '';
 }
-
 // Event Listeners
 document.getElementById('book-form').addEventListener('submit', function(e){
   // Get form values
